@@ -19,7 +19,7 @@ const Hero = () => {
                         </svg>
 
                     </div>
-                    <div className="flex ml-8 md:justify-between gap-2 md:pr-24 mt-4">
+                    <div className="flex ml-8 md:justify-between gap-2 md:pr-24 mt-2 md:mt-4">
                         <svg className="mt-2" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M6 9H12" stroke="#5030E5" stroke-linecap="round" stroke-linejoin="round" />
                             <path d="M9 12V6" stroke="#5030E5" stroke-linecap="round" stroke-linejoin="round" />
@@ -33,8 +33,8 @@ const Hero = () => {
 
 
                 <div className="block md:flex justify-between  mt-4 gap-2 pl-7">
-                    <div className="flex gap-2">
-                        <button className="border-gray-400 border-2 rounded-md flex gap-2 p-1">
+                    <div className="flex gap-2 mt-2">
+                        <button className="flex border-gray-400 border-2 rounded-md gap-2 p-2 h-fit">
                             <svg className="mt-1" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M3.6 1H12.4C13.1333 1 13.7333 1.6 13.7333 2.33333V3.8C13.7333 4.33333 13.4 5 13.0667 5.33333L10.2 7.86667C9.8 8.2 9.53333 8.86667 9.53333 9.4V12.2667C9.53333 12.6667 9.26666 13.2 8.93333 13.4L8 14C7.13333 14.5333 5.93333 13.9333 5.93333 12.8667V9.33333C5.93333 8.86667 5.66666 8.26667 5.4 7.93333L2.86666 5.26667C2.53333 4.93333 2.26666 4.33333 2.26666 3.93333V2.4C2.26666 1.6 2.86666 1 3.6 1Z" stroke="#787486" stroke-width="1.3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
@@ -44,7 +44,7 @@ const Hero = () => {
                             </svg>
 
                         </button>
-                        <button className="border-gray-400 border-2 rounded-md flex gap-2 p-1">
+                        <button className="flex border-gray-400 border-2 rounded-md gap-2 p-2 h-fit">
                             <svg className="mt-1" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M5.33334 1.33333V3.33333" stroke="#787486" stroke-width="1.3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
                                 <path d="M10.6667 1.33333V3.33333" stroke="#787486" stroke-width="1.3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
@@ -59,7 +59,7 @@ const Hero = () => {
 
                         </button>
                     </div>
-                    <div className="flex  mt-4 gap-3 pr-24">
+                    <div className="flex mt-4  md:mt-2 gap-3 pr-24">
                         <button className="flex border-gray-400 border-2 rounded-md gap-2 p-2">
                             <svg className="mt-1" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M6.1064 7.74666C6.0864 7.74666 6.07307 7.74666 6.05307 7.74666C6.01973 7.73999 5.97307 7.73999 5.93307 7.74666C3.99973 7.68666 2.53973 6.16666 2.53973 4.29333C2.53973 2.38666 4.09307 0.833328 5.99973 0.833328C7.9064 0.833328 9.45973 2.38666 9.45973 4.29333C9.45307 6.16666 7.9864 7.68666 6.1264 7.74666C6.11973 7.74666 6.11307 7.74666 6.1064 7.74666ZM5.99973 1.83333C4.6464 1.83333 3.53973 2.93999 3.53973 4.29333C3.53973 5.62666 4.57973 6.69999 5.9064 6.74666C5.9464 6.73999 6.03307 6.73999 6.11973 6.74666C7.4264 6.68666 8.45307 5.61333 8.45973 4.29333C8.45973 2.93999 7.35307 1.83333 5.99973 1.83333Z" fill="#787486" />
